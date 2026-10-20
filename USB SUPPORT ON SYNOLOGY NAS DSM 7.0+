@@ -16,7 +16,7 @@ modprobe cdc-acm
 #Moves into the lib/moduels library
 cd /lib/modules/
 
-sudo wget https://github.com/robertklep/dsm7-usb-serial-drivers/tree/raw/main/modules/braswell/dsm-7.2/ch341.ko
+sudo wget https://github.com/robertklep/dsm7-usb-serial-drivers/raw/main/modules/braswell/dsm-7.2/ch341.ko
 sudo insmod /lib/modules/ch341.ko
 sudo wget https://github.com/robertklep/dsm7-usb-serial-drivers/raw/refs/heads/main/modules/braswell/dsm-7.2/cp210x.ko
 sudo insmod /lib/modules/cp210x.ko
